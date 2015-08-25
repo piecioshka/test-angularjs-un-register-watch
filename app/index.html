@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test-angular-un-register-watch</title>
+    <style>
+        [ng\-click] { cursor: pointer; text-decoration: underline; color: #987b14;}
+    </style>
+</head>
+<body>
+    <fieldset ng-controller="FirstController">
+        <legend ng-bind="title"></legend>
+        <label>
+            <input ng-model="title"/>
+        </label>
+        <a ng-click="destroy()">Destroy scope #1</a>
+    </fieldset>
+
+    <fieldset ng-controller="SecondController">
+        <legend ng-bind="title"></legend>
+        <label>
+            <input ng-model="title"/>
+        </label>
+        <a ng-click="destroy()">Destroy scope #2</a>
+    </fieldset>
+
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
