@@ -1,4 +1,4 @@
-# test-angular-un-register-watch
+# test-angularjs-un-register-watch
 
 Unwatch all `$watcher`ers is doing by `$destroy` method of `$scope`.
 So we don't have unregister every watcher, but application architecture requires that we can't to for couple ways.
@@ -31,4 +31,4 @@ module.controller('TestController', function ($scope) {
 
 This code remove all `$scope` properties after one second.
 
-3. Third way is passed in another my project: https://github.com/piecioshka/test-angular-disable-watchers
+3. Third way is passed in another my project: https://github.com/piecioshka/test-angularjs-disable-watchers
