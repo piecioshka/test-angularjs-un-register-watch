@@ -1,5 +1,11 @@
 # test-angularjs-un-register-watch
 
+## Preview 🎉
+
+https://piecioshka.github.io/test-angularjs-un-register-watch/app/
+
+---
+
 Unwatch all `$watcher`ers is doing by `$destroy` method of `$scope`.
 So we don't have unregister every watcher, but application architecture requires that we can't to for couple ways.
 
