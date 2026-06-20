@@ -2,5 +2,6 @@
   "private": true,
   "dependencies": {
     "angular": "^1.4.4"
-  }
+  },
+  "license": "MIT"
 }

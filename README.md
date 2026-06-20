@@ -38,3 +38,7 @@ module.controller('TestController', function ($scope) {
 This code remove all `$scope` properties after one second.
 
 3. Third way is passed in another my project: https://github.com/piecioshka/test-angularjs-disable-watchers
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
